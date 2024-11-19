@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utilities.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://kit.fontawesome.com/48aa65f8b1.js" crossorigin="anonymous"></script>
+    <title>Maryland</title>
+</head>
+<body onload="update()">
+                 <!-- Navbar -->
+    <div class="container bg-dark"> <!--For max-width -->
+        <nav>
+            <a class="logo" href="index.html">Maryland</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="current" href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+                <!-- First Dropdown -->
+                <li class="relative">
+                    <a href="#">Team &ThinSpace;<i class="fa-solid fa-arrow-down"></i></a>
+                    <div class="team bg-dark">
+                        <ul>
+                            <li><a href="#">Alex</a></li>
+                            <li><a href="#">Dimitri</a></li>
+                            <li><a href="#">Talem</a></li>
+
+                            <!-- Second Dropdown -->
+                            <li class="relative-2">
+                                <a href="#"><i class="fa-solid fa-arrow-left">&ThinSpace; </i>More</a>
+                                <div class="team-extra bg-dark">
+                                    <ul>
+                                        <li><a href="#">Matteo</a></li>
+                                        <li><a href="#">Jens</a></li>
+                                        <li><a href="#">Fatih</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Upside  -->
+    <section>
+        <div class="container-upside bg-white">
+            <div class="info-left">
+                <h1><span class="orange-color">Why </span>Choose Us?</h1>
+                <p>Prime Location: Nestled near the crystal-clear waters of the Caribbean, our hotel provides easy access to pristine beaches and vibrant local attractions.</p>
+                <p>Elegant Accommodations: Enjoy spacious rooms with modern amenities and stunning views, designed to offer you the utmost comfort and relaxation.</p>
+                <p>Gourmet Dining: Indulge in exquisite cuisine at our on-site restaurant, featuring a diverse menu that caters to all tastes.</p>
+                <p>Exceptional Service: Our dedicated staff is committed to providing you with personalized service, ensuring your stay is nothing short of perfect.</p>
+            </div>
+
+            <!-- Right Side Wits Slideshow -->
+            <div class="info-right">
+                <div class="paragraph">
+                    <p><span class="orange-color">Relax</span> and <span class="orange-color">Rejuvenate</span> in Our Luxurious Hotel</p>
+                </div>
+                
+                <div class="slideshow">
+                    <div class="slide">
+                        <img src="./Pictures/1.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="./Pictures/2.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="./Pictures/3.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="./Pictures/4.jpg" alt="">
+                    </div>
+                </div>
+
+                <button class="prev" onclick="nextslide(-1)">prev</button>
+                <button class="next" onclick="nextslide(1)">next</button>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Downside -->
+    <section>
+        <div class="container-downside">
+            <div class="container-guest-say">
+                <div class="container-guest"> <!-- For the background orange-->
+                    <!-- First Guest -->
+                    <div class="image-guest">
+                        <img src="/Final-Projekt/img/person-1.jpg" alt="No-Image-Found">
+                    </div>
+
+                    <div> <!--What Guest Say-->
+                        My experience at this hotel was nothing short of magical. From the moment I arrived, I was greeted with warm smiles and exceptional service. The room was beautifully appointed with breathtaking views of the beach, and every detail was thoughtfully curated. The culinary delights at the restaurant were exquisite, making each meal a memorable experience. The tranquil atmosphere provided the perfect escape, allowing me to unwind and recharge. I can't wait to return to this slice of paradise.
+                    </div>
+
+                </div>
+
+                <div class="container-guest"> <!-- For the background orange-->
+                    <!-- Second Guest -->
+                    <div class="image-guest">
+                        <img src="/Final-Projekt/img/person-2.jpg" alt="No-Image-Found">
+                    </div>
+
+                    <div> <!--What Guest Say-->
+                        Staying at this hotel was an absolute delight. The elegant decor and stunning ocean views created a serene and luxurious ambiance. The staff went above and beyond to ensure my stay was perfect, offering exceptional service at every turn. The food was incredible, and the amenities, especially the pool and spa, were top-notch. It was the perfect getaway, leaving me feeling completely refreshed and pampered. I highly recommend this hotel to anyone looking for a truly exceptional experience.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Footer -->
+     <footer class="bg-dark">
+        <h1>Hotel Maryland &copy; 2024, All Rights Reserved</h1>
+     </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

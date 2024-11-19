@@ -1,0 +1,55 @@
+/* Links */
+a {text-decoration: none; color: var(--white);}
+
+/* Backgrounds colors */
+.bg-orange {
+    background-color: var(--orange);
+}
+
+.bg-dark {
+    background-color: var(--black);
+}
+
+.bg-white {
+    background: var(--white);
+}
+
+/* Colors */
+:root {
+    --white: #e9e9e9;
+    --black: #333;
+    --black-light: #444;
+    --orange: #f7c08a;
+}
+
+.orange-color {
+    color: var(--orange);
+}
+
+/* Buttons */
+/* Black */
+.btn-black {
+    background-color: var(--black);
+    padding: 13px 30px;
+    display: inline-block;
+    color: var(--white);
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 500;
+    /* border: none; */
+}
+.btn-black:active {background-color: var(--black-light);}
+.btn-black:hover {background-color: var(--orange); color: var(--black);}
+
+/* White */
+.btn-white {
+    background-color: var(--white);
+    padding: 10px 40px;
+    display: inline-block;
+    color: var(--black);
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 500;
+}
+.btn-white:active {background-color: var(--white-light);}
+.btn-white:hover {background-color: var(--orange); color: var(--black);}

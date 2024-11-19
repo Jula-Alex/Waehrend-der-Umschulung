@@ -1,0 +1,1 @@
+Quelle: Buch -> C - Programmieren von Anfang an, rororo

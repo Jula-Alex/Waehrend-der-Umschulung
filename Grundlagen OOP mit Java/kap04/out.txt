@@ -1,0 +1,19 @@
+Classic FOR
+1. Element a [0] = 1
+2. Element a [1] = 3
+3. Element a [2] = 5
+4. Element a [3] = 7
+5. Element a [4] = 9
+FOR EACH, like in PYTHON, PHP or BASH
+1
+3
+5
+7
+9
+a [0] = 1
+a [1] = 3
+a [2] = 5
+a [3] = 7
+a [4] = 9
+ERROR: Something went wrong. Error: java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 5
+Hier ist wieder alles OK!

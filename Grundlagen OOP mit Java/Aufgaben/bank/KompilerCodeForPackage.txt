@@ -1,0 +1,6 @@
+
+//How to Build the project as a Package
+javac -d ./banksrc/ ./bank/*.java
+
+
+C:\Projekte\Java\Aufgaben\banksrc>java ctc.Bank

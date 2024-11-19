@@ -1,0 +1,5 @@
+//Lexikografische Ordnung - Zeigen mit HEX-Editor
+
+Ab < Ac
+2 > 12
+AB < Ab

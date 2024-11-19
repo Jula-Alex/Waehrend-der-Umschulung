@@ -1,0 +1,63 @@
+/* Container Contact */
+.container-contact {
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px;
+}
+
+.container-contact h1 {
+    font-size: 40px;
+    padding: 20px 0;
+}
+
+.container-contact p {
+    margin: 10px 0;
+}
+
+.enter-info {margin-bottom: 20px;}
+
+.enter-info label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.enter-info input, .enter-info textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.enter-info input:focus, .enter-info textarea:focus {
+    outline: 1px solid var(--orange);
+}
+
+/* Container Info */
+.container-info {
+    display: flex;
+    text-align: center;
+    color: var(--white);
+    background: var(--black-light);
+}
+
+.container-info > div {
+    padding: 50px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.container-info > div:hover {
+    color: var(--orange);
+}
+
+.container-info > div > h1 {padding: 10px 0;}
+
+.map {
+    display: none;
+    width: 100%;
+}
+
+
+
+
+
+

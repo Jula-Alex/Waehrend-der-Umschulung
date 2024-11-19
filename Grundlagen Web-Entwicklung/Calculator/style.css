@@ -1,0 +1,140 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+body {
+    margin: 0;
+    background: url(/Calculator/background.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.big-container {
+    display: flex;
+    width: 620px;
+    height: 600px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.black-container {
+    width: 300px;
+    height: 600px;
+    background-color: #363a43;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+.white-container {
+    width: 300px;
+    height: 600px;
+    background-color: #c0c0c0;
+}
+
+/* Mic container left-top-corner */
+.mic {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    /* background: red; */
+}
+
+.mic .mic-container {
+    width: 60px;
+    height: 50px;
+    background-color: #565a63;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px 25px 25px 0;
+}
+
+.mic i {
+    font-size: 25px;
+    color: #a2a6af;  
+}
+
+/* Display Container */
+.display {
+    /* background-color: green; */
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.display-count {
+    width: 100%;
+    height: 60%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding: 5px 10px;
+}
+
+.display-count span {
+    font-size: 18px;
+    color: #5c606a;
+}
+
+.display-result {
+    width: 100%;
+    height: 40%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    padding: 0px 5px;
+}
+
+.display-result span {
+    color: white;
+    font-size: 50px;
+}
+
+.buttons-container {
+    /* background-color: yellow; */
+    width: 100%;
+    height: 60%;
+}
+
+.first-row, .second-row, .third-row, .forth-row, .fifth-row {
+    width: 100%;
+    height: 20%;
+    /* background: white; */
+    margin: 3px;
+    display: flex;
+}
+
+.first-row button, .second-row button, .third-row button, .forth-row button, .fifth-row button {
+    width: 25%;
+    height: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(6,14,50,1) 34%, rgba(2,7,28,1) 100%); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 2px;
+    color:#9197a3;
+    border: none;
+} 
+
+.buttons-container button:hover {
+    opacity: 0.8;
+    
+}
+
+

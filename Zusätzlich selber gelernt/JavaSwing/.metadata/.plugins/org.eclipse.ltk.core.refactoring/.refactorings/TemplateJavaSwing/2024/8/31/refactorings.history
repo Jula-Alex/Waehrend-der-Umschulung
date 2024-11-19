@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;selectAFile&apos; to &apos;javaSwing&apos;&#x0D;&#x0A;- Original project: &apos;AAAAAAAAAAAAAAAAAAAAAAAAAA&apos;&#x0D;&#x0A;- Original element: &apos;AAAAAAAAAAAAAAAAAAAAAAAAAA/src/selectAFile&apos;&#x0D;&#x0A;- Renamed element: &apos;AAAAAAAAAAAAAAAAAAAAAAAAAA/src/javaSwing&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;selectAFile&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;selectAFile" name="javaSwing" qualified="false" references="true" stamp="1722502699698" textual="false" version="1.0"/>
+</session>

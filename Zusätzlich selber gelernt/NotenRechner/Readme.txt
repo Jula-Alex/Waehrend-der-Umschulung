@@ -1,0 +1,1 @@
+Ich habe es erstellt, um den Durchschnitt der Noten, die ich in der Klasse erhalten habe, zu berechnen, aber ich habe es nicht fertiggestellt.

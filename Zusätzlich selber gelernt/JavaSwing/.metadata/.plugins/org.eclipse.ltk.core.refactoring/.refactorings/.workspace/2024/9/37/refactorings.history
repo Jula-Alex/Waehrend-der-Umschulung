@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;AAAAAAAAAAAAAAAAAAAAAAAAAA&apos; to &apos;TemplateJavaSwing&apos;" description="Rename resource &apos;AAAAAAAAAAAAAAAAAAAAAAAAAA&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/AAAAAAAAAAAAAAAAAAAAAAAAAA" name="TemplateJavaSwing" stamp="1725877306825" updateReferences="true"/>
+</session>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="x"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="true"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="y"/>
+			<item value="this."/>
+			<item value="GAME_UNITS"/>
+			<item value="start"/>
+			<item value="label."/>
+			<item value="Color.black"/>
+			<item value="BORDER_BLACK"/>
+			<item value="bottomBorder"/>
+			<item value="centerBorder"/>
+			<item value="bigBorder"/>
+			<item value=".showConfirmDialog"/>
+			<item value=".showMessageDialog"/>
+			<item value="label1."/>
+			<item value="frame."/>
+			<item value="button."/>
+		</list>
+		<list key="replacehistory">
+			<item value="x"/>
+			<item value="panel2Label"/>
+			<item value="GAME_PIXELS"/>
+			<item value="end"/>
+			<item value="squareLabel."/>
+			<item value="Color.black, 5"/>
+			<item value="BORDER_"/>
+			<item value="blue"/>
+			<item value="red"/>
+			<item value="black"/>
+			<item value=".showInputDialog"/>
+			<item value=".showConfirmDialog"/>
+			<item value="label3."/>
+			<item value="label2."/>
+			<item value="panel."/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="1406"/>
+		<item key="DIALOG_Y_ORIGIN" value="275"/>
+		<item key="DIALOG_WIDTH" value="414"/>
+		<item key="DIALOG_HEIGHT" value="454"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="646"/>
+		<item key="DIALOG_Y_ORIGIN" value="349"/>
+	</section>
+</section>

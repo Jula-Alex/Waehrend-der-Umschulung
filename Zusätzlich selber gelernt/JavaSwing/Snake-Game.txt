@@ -1,0 +1,17 @@
+Crea il gioco snake con una pagina di inizio che ha i seguenti bottoni:
+- inizia il gioco (Start Game)
+- Opzioni (Options)
+- Uscita (Exit)
+
+quando si avvia il gioco ci deve essere uno schermo nero con una scritta bianca: 
+JA             VA          SWING         TZENERGAME... 
+
+ - nelle opzioni deve esere presente la possibilita di cambiare il background, 
+   il colore del serpente e il colore della mela
+ - tramite un slider si puo cambiare la grandezza del gioco stesso, cioe la grandezza dei quadrati che dovranno avere una grandezza sottomultipla della larghezza e altezza del Frame (IMPORTANTE)
+ - regolazione del volume della musica del gioco e la possibilita di fermare il suono tramite un bottone 
+ - tramite un checkbox ci deve essere la possibilita di giocare potendo attraversare i muri o meno 
+ - il gioco deve avere 3 vite e ogni 10 mele mangiate ci si guadagna una in piu 
+ - ogni 5 o 10 mele deve aparire una mela speciale che dura solo per tot secondi
+ - aggiungi l'opzione dell'aumento di velocita quando si mangia una mela nella pagina opzioni
+

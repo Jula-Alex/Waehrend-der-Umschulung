@@ -1,0 +1,16 @@
+//Codepage in CMD Umstellen für UTF-8
+
+C:\Projekte\Java\kap06>type out.txt
+1 F├╝ller kostet 13,99 Ôé¼
+1 Lineal kostet 1,25 Ôé¼
+
+C:\Projekte\Java\kap06>chcp 65001
+Aktive Codepage: 65001.
+
+C:\Projekte\Java\kap06>type out.txt
+1 Füller kostet 13,99 €
+1 Lineal kostet 1,25 €
+
+C:\Projekte\Java\kap06>
+
+Console einstellen mit --> chcp 65001 

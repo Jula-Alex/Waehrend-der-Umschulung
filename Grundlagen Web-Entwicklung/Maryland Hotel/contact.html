@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utilities.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="responsive.css">
+
+    <script src="https://kit.fontawesome.com/48aa65f8b1.js" crossorigin="anonymous"></script>
+    <title>Maryland</title>
+</head>
+<body onload="update()">
+                 <!-- Navbar -->
+    <div class="container bg-dark"> <!--For max-width -->
+        <nav>
+            <a class="logo" href="index.html">Maryland</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="current" href="contact.html">Contact</a></li>
+
+                <!-- First Dropdown -->
+                <li class="relative">
+                    <a href="#">Team &ThinSpace;<i class="fa-solid fa-arrow-down"></i></a>
+                    <div class="team bg-dark">
+                        <ul>
+                            <li><a href="#">Alex</a></li>
+                            <li><a href="#">Dimitri</a></li>
+                            <li><a href="#">Talem</a></li>
+
+                            <!-- Second Dropdown -->
+                            <li class="relative-2">
+                                <a href="#"><i class="fa-solid fa-arrow-left">&ThinSpace; </i>More</a>
+                                <div class="team-extra bg-dark">
+                                    <ul>
+                                        <li><a href="#">Matteo</a></li>
+                                        <li><a href="#">Jens</a></li>
+                                        <li><a href="#">Fatih</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <section>
+        <div class="container-contact">
+          <h1><span class="orange-color">Contact</span> Us</h1>
+          <p>Please fill out the form below to contact us</p>
+
+            <form action="/submit-form" method="post">
+                <div class="enter-info">
+                  <label for="name">Name</label>
+                  <input type="text" required>
+                </div>
+
+                <div class="enter-info">
+                  <label for="email">Email</label>
+                  <input type="email" required>
+                </div>
+
+                <div class="enter-info">
+                  <label for="message">Message</label>
+                  <textarea name="message" required></textarea>
+                </div>
+
+                <button class="btn-black" id="Submit" onclick="showMessage()">Submit</button>
+            </form>
+        </div>
+      </section>
+
+      <section class="container-info">
+        <div onclick="mapBlock()">
+            <a href=""></a><i class="fa-solid fa-hotel fa-3x"></i>
+            <h1>Location</h1>
+            <p> Marlene-Dietrich-Straße 1, 89231 Neu-Ulm</p>
+        </div>
+        <div>
+            <i class="fa-solid fa-phone fa-3x"></i>
+            <h1>Phone Number</h1>
+            <p>0731 984910</p>
+        </div>
+        <div>
+            <i class="fa-solid fa-envelope fa-3x"></i>
+            <h1>Email Address</h1>
+            <p>info@ctc-lohr.de</p>
+        </div>
+    </section>
+
+    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2649.743741501166!2d10.002229876592775!3d48.38465873392735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479966ea7b901599%3A0x370cdbd320ada3ae!2sCTC%20Lohr%20e.K.!5e0!3m2!1sde!2sde!4v1721722768333!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <!-- Footer -->
+     <footer class="bg-dark">
+        <h1>Hotel Maryland &copy; 2024, All Rights Reserved</h1>
+     </footer>
+
+     <script src="script.js"></script>
+</body>
+</html>
