@@ -1,1 +1,1 @@
-Quelle: Buch -> C - Programmieren von Anfang an, rororo
+Quelle: Dozent -> Buch -> C - Programmieren von Anfang an, rororo
